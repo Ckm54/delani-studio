@@ -58,3 +58,18 @@
 .our-services .intro p{
     padding: 3px 0;
 }
+
+
+/* what we do section styling */
+.what-done {
+    text-align: center;
+    padding: 4em 0;
+}
+.what-done .icons {
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-between;
+}
+.development, .design, .product-management {
+    margin: 0 40px 0 100px;
+}
