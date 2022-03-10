@@ -1,0 +1,30 @@
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.header {
+    text-align: center;
+    background: url("../assets/backgrounds/h_img.jpg") no-repeat center center fixed;
+    height: 75vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.logo {
+    margin-top: 150px;
+    padding: 30px;
+}
+.intro {
+    margin-bottom: 90px;
+    padding-bottom: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
