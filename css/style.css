@@ -28,3 +28,13 @@
     color: #fff;
     text-transform: uppercase;
 }
+
+/* about section styling */
+.about {
+    text-align: center;
+    margin-top: 50px;
+}
+.about-us {
+    width: 60vw;
+    text-align: center;
+}
