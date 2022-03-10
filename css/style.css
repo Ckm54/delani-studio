@@ -34,11 +34,14 @@
 /* about section styling */
 .about {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 .about-us {
     width: 60vw;
     text-align: center;
+}
+.about-us p {
+    padding: 3px 0;
 }
 
 /* services section styling */
@@ -53,5 +56,5 @@
     padding: 8em 0;
 }
 .our-services .intro p{
-    padding-top: 5px;
+    padding: 3px 0;
 }
