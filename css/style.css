@@ -73,3 +73,23 @@
 .development, .design, .product-management {
     margin: 0 40px 0 100px;
 }
+
+/* portfolio section styling */
+.portfolio {
+    text-align: center;
+    padding: 20px 0;
+}
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.portfolio-img .image {
+    flex: 1;
+    margin: 10px;
+}
+.portfolio-img .image img {
+    width: 300px;
+}
