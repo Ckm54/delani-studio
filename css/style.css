@@ -93,3 +93,30 @@
 .portfolio-img .image img {
     width: 300px;
 }
+
+/* contact section styling */
+.contact {
+    text-align: center;
+    color: #fff;
+    background: url("../assets/backgrounds/c_image.jpg");
+}
+.contact .intro {
+    padding: 20px 0 100px 0;
+}
+.form .row input, .form textarea {
+    background: none;
+    border: 1px solid #fff;
+}
+.form .row input::placeholder,
+.form textarea::placeholder {
+    color: #fff;
+}
+.form .row input:-ms-input-placeholder,
+.form textarea:-ms-input-placeholder { 
+    color: #fff;
+  }
+  
+.form .row input::-ms-input-placeholder,
+.form textarea::-ms-input-placeholder { 
+color: #fff;
+}
