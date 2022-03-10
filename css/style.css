@@ -46,7 +46,8 @@
 
 /* services section styling */
 .services {
-    background: url("../assets/backgrounds/s_image.jpg");
+    background: url("../assets/backgrounds/s_image.jpg") no-repeat center center;
+    min-height: 30vh;
 }
 .our-services {
     text-align: center;
@@ -98,7 +99,7 @@
 .contact {
     text-align: center;
     color: #fff;
-    background: url("../assets/backgrounds/c_image.jpg");
+    background: url("../assets/backgrounds/c_image.jpg") no-repeat center center;
 }
 .contact .intro {
     padding: 20px 0 100px 0;
@@ -119,4 +120,18 @@
 .form .row input::-ms-input-placeholder,
 .form textarea::-ms-input-placeholder { 
 color: #fff;
+}
+
+/* footer section styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.footer-icons .icon {
+    margin: 0 10px;
 }
