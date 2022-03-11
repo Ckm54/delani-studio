@@ -69,6 +69,8 @@ img:hover {
 .what-done {
     text-align: center;
     padding: 4em 0;
+    display: block;
+    margin-bottom: 50px;
 }
 .what-done .icons {
     padding: 2em 0;
@@ -76,8 +78,28 @@ img:hover {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.development, .design, .product-management {
-    margin: 0 40px 0 100px;
+.overlay {
+    position: absolute;
+    z-index: 100;
+}
+.work .overlay {
+    padding: 20px;
+    margin: 0 35px;
+}
+.work, .image img {
+    float: left;
+    width: 33.3%;
+    position: relative;
+}
+.work .work-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.what-done .icons:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 figcaption {
     padding-top: 5px;
@@ -87,6 +109,7 @@ figcaption {
 .portfolio {
     text-align: center;
     padding: 20px 0;
+    margin-top: 100px;
 }
 .portfolio-img {
     display: flex;
@@ -101,6 +124,20 @@ figcaption {
 }
 .portfolio-img .image img {
     width: 300px;
+}
+.portfolio-img .image .overlay{
+    background: rgb(255, 255, 255, 0.4);
+    width: 290px;
+    height: 235px;
+}
+.portfolio-img .image .overlay p {
+    position: relative;
+    float: left;
+    left: 40%;
+    top: 40%;
+    transform: translate(-50% -50%);
+    font-size: 30px;
+    font-weight:700;
 }
 
 /* contact section styling */
