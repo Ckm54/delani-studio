@@ -129,6 +129,8 @@ figcaption {
     background: rgb(255, 255, 255, 0.4);
     width: 290px;
     height: 235px;
+    border-right: 4px solid rgb(255, 255, 255, 0.4);
+    border-bottom: 4px solid rgb(255, 255, 255, 0.4);
 }
 .portfolio-img .image .overlay p {
     position: relative;
