@@ -81,6 +81,9 @@ img:hover {
 .overlay {
     position: absolute;
     z-index: 100;
+    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .work .overlay {
     padding: 20px;
@@ -109,7 +112,6 @@ figcaption {
 .portfolio {
     text-align: center;
     padding: 20px 0;
-    margin-top: 100px;
 }
 .portfolio-img {
     display: flex;
@@ -209,6 +211,10 @@ footer {
     .what-done .icons .design img,
     .what-done .icons .product-management img {
         height: 80px;
+    }
+    .portfolio-img .image {
+        display: flex;
+        justify-content: center;
     }
 }
 @media (max-width: 675px) {
