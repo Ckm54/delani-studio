@@ -4,6 +4,9 @@ body {
 img:hover {
     cursor: pointer;
 }
+section h2 {
+    padding-bottom: 1em;
+}
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -68,9 +71,8 @@ img:hover {
 /* what we do section styling */
 .what-done {
     text-align: center;
-    padding: 4em 0;
+    padding-top: 4em;
     display: block;
-    margin-bottom: 50px;
 }
 .what-done .icons {
     padding: 2em 0;
@@ -79,25 +81,19 @@ img:hover {
     justify-content: space-around;
 }
 .overlay {
-    position: absolute;
-    z-index: 100;
-    overflow: auto;
-    overflow-y: hidden;
-    overflow-x: hidden;
+    position: relative;
 }
 .work .overlay {
     padding: 20px;
     margin: 0 35px;
 }
+.work .overlay p {
+    text-align: justify;
+}
 .work, .image img {
     float: left;
     width: 33.3%;
     position: relative;
-}
-.work .work-image {
-    position: absolute;
-    left: 0;
-    right: 0;
 }
 .what-done .icons:after {
     content: "";
@@ -111,7 +107,6 @@ figcaption {
 /* portfolio section styling */
 .portfolio {
     text-align: center;
-    padding: 20px 0;
 }
 .portfolio-img {
     display: flex;
@@ -133,6 +128,9 @@ figcaption {
     height: 235px;
     border-right: 4px solid rgb(255, 255, 255, 0.4);
     border-bottom: 4px solid rgb(255, 255, 255, 0.4);
+}
+.portfolio-img .image .overlay {
+    position: absolute;
 }
 .portfolio-img .image .overlay p {
     position: relative;
@@ -168,7 +166,7 @@ figcaption {
   
 .form .row input::-ms-input-placeholder,
 .form textarea::-ms-input-placeholder { 
-color: #fff;
+    color: #fff;
 }
 .btn {
     border: 2px solid #fff;
@@ -206,8 +204,6 @@ footer {
     .development, .design, .product-management {
         margin: 0 0 0 80px;
     }
-}
-@media (max-width: 780px) {
     .what-done .icons .design img,
     .what-done .icons .product-management img {
         height: 80px;
@@ -215,6 +211,13 @@ footer {
     .portfolio-img .image {
         display: flex;
         justify-content: center;
+    }
+    .work .overlay {
+        padding: 5px;
+        margin: 5px;
+    }
+    .work .overlay p {
+        font-size: 15px;
     }
 }
 @media (max-width: 675px) {
@@ -247,7 +250,10 @@ footer {
 }
 @media (max-width: 450px) {
     section {
-        padding: 0 12px;
+        padding: 1em 0.5em 0 0.5em ;
+    }
+    .header {
+        height: 65vh;
     }
     .heading {
         padding: 40px;
@@ -265,6 +271,7 @@ footer {
     }
     .what-done {
         text-align: center;
+        padding-top: 1em;
     }
     .work .overlay {
         padding: 5px;
@@ -286,5 +293,8 @@ footer {
     }
     .what-done .icons .development {
         margin-left: 0;
+    }
+    .btn {
+        padding: 5px 15px;
     }
 }
