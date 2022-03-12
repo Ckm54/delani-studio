@@ -145,21 +145,22 @@
             <div class="intro">
                 <h2>CONTACT US</h2>
                 <div class="form container">
-                    <form action="#">
+                    <form action="#" id="contact-form">
                         <div class="row">
                             <div class="col mb-4">
-                                <input type="text" id="name" class="form-control" placeholder="Name..." required>
+                                <input type="text" id="name" class="form-control" placeholder="Name...">
                               </div>
                               <div class="col mb-4">
-                                <input type="email" id="email" class="form-control" placeholder="Email..." required>
+                                <input type="email" id="email" class="form-control" placeholder="Email...">
                               </div>
                         </div>
                         <div class="textarea mb-4">
-                            <textarea name="textarea" id="message" class="form-control" cols="125" rows="12" placeholder="Your message here..." required></textarea>
+                            <textarea name="textarea" id="message" class="form-control" cols="125" rows="12" placeholder="Your message here..."></textarea>
                         </div>
                         <div>
-                            <button id="btn-submit" class="btn" type="submit" onclick="formSubmit()">Send Message</button>
+                            <button id="btn-submit" class="btn" type="submit">Send Message</button>
                         </div>
+                        <p class="error-text"></p>
                     </form>
                 </div>
             </div>
