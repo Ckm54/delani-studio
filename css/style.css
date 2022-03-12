@@ -10,6 +10,9 @@ section {
 section h2 {
     padding-bottom: 1em;
 }
+p {
+    font-size: 20px;
+}
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -41,7 +44,10 @@ section h2 {
     color: #fff;
     text-transform: uppercase;
 }
-
+.heading .intro p {
+    font-weight: 500;
+    font-size: 20px;
+}
 /* about section styling */
 .about {
     text-align: center;
@@ -206,11 +212,22 @@ footer {
 
 /* RESPONSIVE CSS */
 @media (max-width: 1000px) {
+    p {
+        font-size: 15px;
+    }
+    .about-us p {
+        padding: 1px 0;
+    }
     .development, .design, .product-management {
         margin: 0 10px 0 80px;
     }
 }
 @media (max-width: 780px) {
+    .heading .intro p {
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 20px;
+    }
     .development, .design, .product-management {
         margin: 0 0 0 80px;
     }
