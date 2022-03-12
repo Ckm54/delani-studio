@@ -4,6 +4,9 @@ body {
 img:hover {
     cursor: pointer;
 }
+section {
+    margin-bottom: 1em;
+}
 section h2 {
     padding-bottom: 1em;
 }
@@ -154,6 +157,7 @@ figcaption {
 .form .row input, .form textarea {
     background: none;
     border: 1px solid #fff;
+    color: #fff;
 }
 .form .row input::placeholder,
 .form textarea::placeholder {
@@ -166,6 +170,12 @@ figcaption {
   
 .form .row input::-ms-input-placeholder,
 .form textarea::-ms-input-placeholder { 
+    color: #fff;
+}
+input[type=text]:focus, input[type=email]:focus, .form textarea:focus
+{
+    background-color: transparent;
+    border: 2px solid #fff;
     color: #fff;
 }
 .btn {
