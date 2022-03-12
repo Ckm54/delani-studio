@@ -168,6 +168,16 @@ figcaption {
 .form textarea::-ms-input-placeholder { 
 color: #fff;
 }
+.btn {
+    border: 2px solid #fff;
+    background: #fff;
+    float: left;
+    padding: 10px 25px;
+}
+.btn:hover {
+    background: none;
+    color: #fff;
+}
 
 /* footer section styling */
 footer {
