@@ -260,20 +260,25 @@ footer {
     .what-done {
         text-align: center;
     }
+    .work .overlay {
+        padding: 5px;
+        margin: 0;
+    }
+    .work .overlay h4 {
+        font-size: 13px;
+    }
+    .work .overlay p {
+        font-size: 10px;
+    }
     .what-done .icons .product-management {
         margin-top: 50px;
     }
     .what-done .icons .product-management figcaption {
-        /* display: block; */
         width: 50%;
         text-align: center;
         margin-left: 50px;
     }
     .what-done .icons .development {
         margin-left: 0;
-    }
-    .what-done .icons img {
-        height: 300px;
-        padding: 3px;
     }
 }
