@@ -10,4 +10,16 @@ $(document).ready(function () {
     }).mouseleave(function () { 
         $(this).find(".overlay").slideUp(300)
     });
+
+    formSubmit()
 });
+ 
+function formSubmit() { 
+    $("form").submit(function (e) { 
+        e.preventDefault();
+        let name = $("input#name").val();
+        let email = $("input#email").val();
+        let message = $("textarea#message").val()
+        
+    });
+ }
